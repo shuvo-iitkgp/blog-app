@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  margin: 0;
+  font-family: "Poppins", Geneva, Tahoma, sans-serif;
+}

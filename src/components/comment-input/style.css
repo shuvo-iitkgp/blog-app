@@ -1,0 +1,32 @@
+.commentInput {
+  justify-content: space-between;
+  display: flex;
+}
+.commentInput__textarea {
+  padding: 0.5rem;
+  width: 100%;
+
+  margin: 1px 0px;
+  border-radius: 2rem;
+
+  font-size: 18px;
+  overflow: visible;
+  resize: none;
+  opacity: 0.5;
+  font-family: "Poppins", "Times New Roman", Times, serif;
+}
+.commentInput__textarea:hover {
+  opacity: 1;
+}
+.commentInput__textarea:focus {
+  outline: none;
+  opacity: 1;
+}
+.commentInput__btn {
+  margin-top: 10px;
+  margin-left: 4px;
+  transform: scale(1.3);
+}
+.commentInput__btn:hover {
+  transform: scale(1.5);
+}

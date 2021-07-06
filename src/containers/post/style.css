@@ -1,0 +1,62 @@
+.post__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.post__headerLeft {
+  align-items: center;
+  display: flex;
+}
+.post__profilepic {
+  height: 34px;
+  border-radius: 15px;
+}
+.post {
+  background-color: honeydew;
+  max-width: 600px;
+  border: 1px solid rgb(94, 92, 92);
+  padding: 16px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  width: 90vw;
+  border-radius: 8px;
+}
+.post__delete {
+  border: none;
+
+  cursor: pointer;
+}
+.post__delete:focus {
+  outline: none;
+}
+.post__photoUrl {
+  width: 100%;
+  margin: 16px 0px;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 1.5px solid rgba(77, 77, 77, 0.822);
+}
+.post__liked:hover {
+  transform: scale(1.5) rotate(-20deg);
+  transition: all 0.5s ease-in-out;
+  color: blue;
+}
+.post__disliked:hover {
+  transform: scale(1.5) rotate(-20deg);
+
+  transition: all 0.5s ease-in-out;
+  color: blue;
+}
+.like__dislike {
+  display: flex;
+  justify-content: space-between;
+}
+.like {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.dislike {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
